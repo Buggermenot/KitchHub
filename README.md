@@ -8,10 +8,9 @@ Dedicated for 2 features:
       a. For any set of user input (Ingredients). Must return all recipes that can be made.
       
 DevLog:
-  04-09-22: 
-   Python program to generate random Recipes -> (Set of unique ingredients).
-
-            2. Python program to search recipes (Uses set intersections) -> "NOT DESIRED", Required -> Recipe Subsets that are possible with given input.
-  
+  04-09-22: @BuggerMeNot
+     1. Python program to generate random Recipes -> (Set of unique ingredients).
+     2. Python program to search recipes (Uses set intersections) -> "NOT DESIRED", Required -> Recipe Subsets that are possible with given input.
   ...
+  
 Comp-a-thon 2022, Bennett University. Coding Babas v3.3

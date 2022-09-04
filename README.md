@@ -9,8 +9,8 @@ Dedicated for 2 features:
       
 ## **DevLog**:
   ###### **04-09-22**: [@BuggerMeNot](https://github.com/Buggermenot):
-    Python program to generate random Recipes -> (Set of unique ingredients).
     Basic class created for Recipes.
+    Python program to generate random Recipes -> (Set of unique ingredients).
     Python program to search recipes (Uses set intersections) -> "NOT DESIRED", Required -> Recipe Subsets that are possible with given input.
   ...
   

@@ -9,7 +9,8 @@ Dedicated for 2 features:
       
 DevLog:
   04-09-22: 
-						1. Python program to generate random Recipes -> (Set of unique ingredients).\n
+   Python program to generate random Recipes -> (Set of unique ingredients).
+
             2. Python program to search recipes (Uses set intersections) -> "NOT DESIRED", Required -> Recipe Subsets that are possible with given input.
   
   ...

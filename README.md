@@ -5,7 +5,7 @@ Dedicated for 2 features:
       2. How to store -> Dict, Tables...
   
   2. Search Algorithm for recipes:
-      1.. For any set of user input (Ingredients). Must return all recipes that can be made.
+      1. For any set of user input (Ingredients). Must return all recipes that can be made.
       
 DevLog:
   04-09-22: @BuggerMeNot

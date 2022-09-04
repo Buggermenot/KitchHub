@@ -1,11 +1,11 @@
 # KitchHub: Recipe Database
 Dedicated for 2 features:
   1. Database of the recipes:
-      a. What to store -> Attributes...
-      b. How to store -> Dict, Tables...
+      1. What to store -> Attributes...
+      2. How to store -> Dict, Tables...
   
   2. Search Algorithm for recipes:
-      a. For any set of user input (Ingredients). Must return all recipes that can be made.
+      1.. For any set of user input (Ingredients). Must return all recipes that can be made.
       
 DevLog:
   04-09-22: @BuggerMeNot

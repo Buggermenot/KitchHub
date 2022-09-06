@@ -23,8 +23,7 @@ class Recipe:
     ingredient_count = 0
     # Add more attributes ...
 
-
-    def __init__(self, lst, uid):
+    def __init__(self, lst, uid, count):
         self.ingredient_list = lst
         self.UID = uid
         self.ingredient_count = count
@@ -42,14 +41,14 @@ Recipe_UID = 221511
 
 ingredient_count_dict = dict()
 
-for _ in range(20000):
+for _ in range(200000):
     ingredient_count = randNumber()                             # Generates random "Number" of ingredients
     # print(ingredient_count)
     ingredient_list = random.sample(Veg_lst, k=ingredient_count)
     R = Recipe(ingredient_list, Recipe_UID, ingredient_count)   # Recipe Object stored along with UID.
     Recipe_UID += 1
 
-
+    #---#
     Recipe_lst[Recipe_UID] = R                                  # Recipe can be called using UID
 
     for ingredient in ingredient_list:                          # Groups Recipes based on Ingredients
@@ -71,7 +70,7 @@ for _ in range(20000):
         ingredient_count_dict[ingredient_count] = 1
 
 
-### All Dictionaries - Contains all Recipe details ##
+### All Dictionaries - Contains all Recipe details - [DEBUG] ##
 
 # print(Underline(Bold("Recipe List")))
 # print(Recipe_lst)
@@ -111,29 +110,6 @@ while True:
 UserIngredientInput = list(set(UserIngredientInput))
 print(Underline("Final Selection:"), UserIngredientInput)       # Final list of ingredients
 
-## Test 1: Recipes that use any user ingredients atleast once
-# Recipes = set(Recipe_lst.keys())
-# print(Recipes)
-# for ingredient in UserIngredientInput:
-#     print(ingredient)
-#     Recipes = Recipes.intersection(set(Recipe_lst_ingredient[ingredient].keys()))
-#     print(Recipes)
-
-
-## Test 2:
-# Recipe_set = set()
-# for ingredient in UserIngredientInput:
-#     Recipe_set = Recipe_set.intersection(set(Recipe_lst_ingredient[ingredient].keys()))
-#
-# ingredient_count_set = set()
-# for count in range (1, len(UserIngredientInput) + 1):
-#     try:
-#         ingredient_count_set = ingredient_count_set.union(set(Recipe_lst_ingredient_count[count].keys()))
-#     except:
-#         pass
-# Recipes = Recipe_set.intersection(ingredient_count_set)
-
-# --------------------------- #
 ## Test 3:              ->> WORKS AS REQUIRED!!
 Recipes = set()
 
